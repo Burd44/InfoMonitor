@@ -21,7 +21,6 @@ namespace InfoMonitor.Forms
             foreach (ManagementObject obj in myVideoObject.Get())
             {
                 label1.Text = "Nume: " + obj["Name"];
-
             }
         }
 
