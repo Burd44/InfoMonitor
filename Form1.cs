@@ -39,7 +39,6 @@ namespace InfoMonitor
             {
                 activeForm.Close();
             }
-            /*ActivateButton(btnSender);*/
             activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
